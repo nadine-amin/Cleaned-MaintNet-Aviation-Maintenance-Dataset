@@ -4,4 +4,5 @@ With the original aim of having a **clean text dataset** from which speech can b
 
 Full lists of (1) **expanded domain-specific abbreviations**, (2) **expanded general abbreviations**, (3) **unexpanded abbreviations**, and (4) **corrected misspellings** are also provided. With these resources made publicly available to the research community, further research in different directions is encouraged; for instance, evaluating the performance of off-the-shelf or domain-specific abbreviation expanders or spell-checkers in the low-resource domain of aviation maintenance. We aim to respond to the growing demand for aviation-specific corpora and language processing tools tailored to the technical domain of aviation.
 
-Original dataset can be found at: https://people.rit.edu/fa3019/technical/aircraft.html
+<u>Original Dataset Reference:</u> Akhbardeh, F., Desell, T., & Zampieri, M. (2020). Maintnet: A collaborative open-source library for predictive maintenance language resources. _Proceedings of the 28th International Conference on Computational Linguistics: System Demonstrations_, 7–11.
+<u>Original Dataset Link:</u> https://people.rit.edu/fa3019/technical/aircraft.html
