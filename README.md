@@ -1,2 +1,7 @@
-# Cleaned-MaintNet-Aviation-Maintenance-Dataset
-This is a cleaned version of the MaintNet aviation maintenance logbook dataset with lists of the abbreviations and misspellings it contains..
+# Cleaned MaintNet Aviation Maintenance Dataset
+
+With the original aim of having a clean text dataset from which speech can be synthesized, this repository provides a version of the MaintNet aviation maintenance logbook dataset ([Akhbardeh et al., 2020]([url](https://aclanthology.org/2020.coling-demos.2/))) that has been cleaned using the help of expert knowledge. Cleaned instances have (1) general and domain-specific abbreviations that would naturally be expanded by aviation maintenance technicians (AMTs) written out in full, (2) originally misspelled words corrected, (3) instances cutoff mid-word or mid-phrase are either appropriately completed or truncated, and (4) anonymized instances completed by adding the words "reference manual" in place of the removed manual name.
+
+Full lists of (1) expanded domain-specific abbreviations, (2) expanded general abbreviations, (3) unexpanded abbreviations, and (4) corrected misspellings are also provided. With these resources made publicly available to the research community, further research in different directions is encouraged; for instance, evaluating the performance of off-the-shelf or domain-specific abbreviation expanders or spell-checkers in the low-resource domain of aviation maintenance. We aim to respond to the growing demand for aviation-specific corpora and language processing tools tailored to the technical domain of aviation.
+
+Original dataset can be found at: https://people.rit.edu/fa3019/technical/aircraft.html
